@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+
+    </head>
+    <body>
+
+        <div class="container mt-5">
+            <h2 class="pt-3 ps-2" style="color:#a09595">Bookmarker</h2>
+            <hr class="mt-5"> 
+            <div class="m-auto text-center"style="width: 95%; background-color:#eeeeee">
+                <div class="w-75 m-auto pt-5">
+                <h3 class="fs-4 fw-bold pb-4 " style="color: #000;">Bookmark your favorite sites</h3>
+                <p style="color:#4f4e4e; font-weight: 700;  ">Site Name</p>
+     <input id="BookmarkName"class="form-control p-0 ps-1" type="text" placeholder="Bookmark Name" >
+     <p id="error1" >This name Already exist</p>
+                <p  style="color:#4f4e4e; font-weight: 700; margin-top: 20px;  ">Site URL</p>
+     <input id="websiteURL" class="form-control  p-0 ps-1 mb-3" type="email" placeholder="website URL" >
+     <p id="error2" >Url Field is required</p>
+            <button onclick="addElement()"  class="btn btn-primary  mb-5" >Submit</button>
+                
+
+               
+
+                </div>
+
+            </div>
+
+        </div>
+
+      
+<div class="container mt-4">
+    <div class="m-auto mb-3  text-center"style="width: 95%;">
+       <div class=" text-start  mb-3 m-auto" id="table">
+
+       </div>
+       </div>
+
+       <div>
+       <hr>
+       <span style=" margin-left:2.9%;color:#999; font-size: 15px; font-weight: 700;">© 2019 Bookmarker Inc</span>
+
+
+    </div>
+    
+</div>
+    
+<script src="js/index.js"></script>
+    </body>
+</html>

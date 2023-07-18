@@ -1,0 +1,28 @@
+.form-control:focus{
+    border: 2px #000 solid;
+   box-shadow: none;
+}
+.btn:hover {
+    box-shadow: 2px 5px 3px 0px #888;
+}
+a{
+    color:#fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+a:hover{
+    color:#fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.temp{
+background-image: linear-gradient(rgb(238, 238, 238), rgb(255, 255, 255));
+
+}
+#error1{
+    display: none;
+}
+
+#error2{
+    display: none;
+}
